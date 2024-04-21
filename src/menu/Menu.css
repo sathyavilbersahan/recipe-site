@@ -1,0 +1,62 @@
+
+#categoryContainer {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap:60px;
+    width:90%;
+    background-image:url(../../public/patrick-schneider-5xltWMpkN3E-unsplash.jpg);
+    padding: 100px;
+    justify-content: center;
+    display: flex;
+    margin-left: 60px;
+    border-radius: 25px;
+    
+}
+
+.food-box {
+    cursor: pointer;
+    border: 3px solid black;
+    width: 20rem;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.food-box img {
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 50px;
+}
+
+.food-box p {
+    position: absolute;
+    font-size: 20px;
+    background: red;
+    color:white;
+    width: 100%;
+    padding: 10px;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.food-box:hover p {
+    opacity: 1;
+}
+
+@media (max-width:568px) {
+   
+    .food-box{
+        width: 9rem;
+    }
+    .food-box p{
+        font-size: 16px;
+        font-weight: 400;
+    }
+}

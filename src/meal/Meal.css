@@ -1,0 +1,48 @@
+
+#single-meal{
+    min-height: 100vh;
+    background-color: olive;
+
+}
+.video-container{
+    width: 100%;
+    
+}
+ .info{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+} 
+
+#single-meal h3{
+    margin: 20px 0px;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.ingredients ul{
+    
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.ingredients li{
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 5px; 
+    font-weight: 600;
+}
+
+@media (min-width:768px) {
+    .container{
+        width: 100%;
+        margin: auto;
+    }
+}

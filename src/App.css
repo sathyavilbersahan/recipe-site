@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;0,600;0,700;1,600;1,700&display=swap');
+
+::-webkit-scrollbar{
+    display: none;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:darkslategrey;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+section {
+    padding: 250px 20px;
+}
+section h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 800;
+}
+
+#hero{
+    height: 50vh;
+    background-image: url('../public/tamanna-rumee-Px2K8O8dwa4-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+}
+#hero form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+#hero button{
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: rgb(26, 23, 23);
+    border-radius: 3px;
+    
+}
+#hero input{
+    border: none;
+    width: 50%;
+    padding: 10px 20px;
+    outline: none;
+    font-size: 20px;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:teal;
+    position: relative;
+    color: black;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#logo h2{
+    font-size: 20px;
+}
+footer p{
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+footer a{
+    color: white;
+}
+@media (max-width:768px) {
+    #logo img{
+        display: none;
+    }
+}
+button
+{
+    margin-left: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+form{
+    margin-top: 500px;
+}
+.h1
+{
+    font-weight: 800;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 130px;
+    color: azure;
+}
