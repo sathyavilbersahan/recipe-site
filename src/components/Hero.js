@@ -7,13 +7,12 @@ const Hero = () => {
         e.preventDefault()
         navigate(`/meal/${text}`)
         setText('')
-       
-        
-    }
+
+      }
   return (
     <div id='hero'>
         <form id="myform" onSubmit={handleSubmit}>
-            <input type="text" value={text} onChange={(e)=>setText(e.target.value)} placeholder='Search food by name...'/>
+            <input type="text" value={text} onChange={(e)=>setText(e.target.value)} placeholder='YOUR RECIPE'/>
             <button><i className="ri-search-line">Search</i></button>
         </form>
     </div>

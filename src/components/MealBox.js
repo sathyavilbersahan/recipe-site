@@ -8,7 +8,7 @@ const MealBox = ({ meal }) => {
            <img src={meal.strMealThumb} alt={meal.strMeal} loading='lazy'/>
             <p>{meal.strMeal.slice(0,25)}</p>
             <Link to={`/meal/${meal.idMeal}`}>
-            <i className="ri-arrow-right-up-line"></i>
+            <i className="ri-arrow-right-up-line">Click for Recipe</i>
             </Link>
            </div>
        

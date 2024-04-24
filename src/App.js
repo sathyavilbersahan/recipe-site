@@ -12,13 +12,13 @@ import Footer from './components/Footer'
 const App = () => {
   return (
     <BrowserRouter>
-    <Navbar/>
+     <Navbar/> 
     <Routes>
       
-      <Route path='/' element={<Home/>}/>
-      <Route path='/menu' element={<Menu/>}/>
+       <Route path='/' element={<Home/>}/> 
+      <Route path='/menu' element={<Menu/>}/> 
       <Route path='category/:category' element={<Category/>}/>
-      <Route path='meal/:id' element={<Meal/>}/>
+       <Route path='meal/:id' element={<Meal/>}/> 
     </Routes>  
      <Footer/>
     </BrowserRouter>

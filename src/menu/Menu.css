@@ -5,14 +5,10 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap:60px;
-    width:90%;
-    background-image:url(../../public/patrick-schneider-5xltWMpkN3E-unsplash.jpg);
-    padding: 100px;
+    gap:40px;
+    width:100%;
+    padding: 20px;
     justify-content: center;
-    display: flex;
-    margin-left: 60px;
-    border-radius: 25px;
     
 }
 
@@ -28,7 +24,7 @@
 
 .food-box img {
     width: 100%;
-    background-color: whitesmoke;
+    background-color:black;
     padding: 50px;
 }
 
@@ -36,7 +32,7 @@
     position: absolute;
     font-size: 20px;
     background: red;
-    color:white;
+    color:azure;
     width: 100%;
     padding: 10px;
     bottom: 0;
@@ -44,6 +40,7 @@
     margin: 0;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
+    font-weight: 600;
 }
 
 .food-box:hover p {
